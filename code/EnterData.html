@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <title>Load Patient Data</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <ul style="list-style-type: none;" class="side-by-side">
+            <li class="logo">Anonymous</li> 
+        </ul> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+     
+
+    <div >
+       <form  method="post">
+
+        <div class="patient-data">
+            <div class="label">     
+                   <label  class="input-label" for="patientName">Patient Name</label> <br>
+                   <label id="patient-age" class="input-label" for="patientAge">Patient Age</label>     <br>  
+                   <label id="patient-number" class="input-label" for="patientNumber"> Patient Number</label> <br>
+                  
+            </div>
+
+            <div class="inputs">
+                  <input class="input-field" type="text" name="patientName"> <br>
+                  <input class="input-field" type="text" name="patientage"> <br>
+                  <input class="input-field" type="text" name="patientNumber"><br>
+                  <input type="file" id="img" name="img" accept="image/*">
+
+            </div>
+        </div>
+          
+        <input class="submit-patient-data" type="submit" value="input">
+       </form>
+    </div>
+
+    <div class="colord-blank">
+
+        Note That you have to type the valid patient data cause hospital will use it as a base for patients.<br>
+            <br>
+
+          <p class="instruction">
+         <b>   Instruction: <br></b>
+            <ul>
+                <li class="instruction">input patient name in forth format</li>
+                <li>input Age as Number</li>
+                <li>input a usable valid working number for patient</li>
+                <li>click in buttun "Choose File" to upload image to classifay.</li>
+            </ul>
+          </p>
+    </div>
+   
+    </body>
+</html>
